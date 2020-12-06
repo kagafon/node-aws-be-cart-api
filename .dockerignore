@@ -1,5 +1,8 @@
 node_modules
 dist
-Dockerfile
+Dockerfiles/*
 .dockerignore
 test
+scripts
+Dockerrun.aws.json
+.elasticbeanstalk/*
