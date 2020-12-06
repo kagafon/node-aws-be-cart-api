@@ -2,7 +2,7 @@ FROM node:14-alpine as buildImage
 
 WORKDIR /app
 
-COPY package*.json .
+COPY package*.json ./
 
 RUN npm install
 
@@ -16,8 +16,8 @@ FROM node:14-alpine
 
 WORKDIR /app
 
-COPY --from=buildImage /app/node_modules ./node_modules
-COPY --from=buildImage /app/dist ./dist
+COPY --from=buildImage /app/node_modules ./node_modules/
+COPY --from=buildImage /app/dist ./dist/
 
 USER node 
 ENV PORT=8080
