@@ -1,7 +1,7 @@
 set ENV=development
 
 set REGION=eu-west-1
-set AWS_ACCOUNT_ID=724443507988
+set AWS_ACCOUNT_ID=944469896764
 set PROFILE=default
 
 set AWS_DOCKER_REGISTRY_URL=%AWS_ACCOUNT_ID%.dkr.ecr.%REGION%.amazonaws.com
