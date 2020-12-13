@@ -1,0 +1,8 @@
+node_modules
+dist
+Dockerfiles/*
+.dockerignore
+test
+scripts
+Dockerrun.aws.json
+.elasticbeanstalk/*
